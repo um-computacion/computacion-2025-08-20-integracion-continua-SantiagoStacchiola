@@ -1,5 +1,9 @@
 def suma(a,b):
     return a + b
 
-if _name_ == "_main_":
+def resta(a,b):
+    return a - b
+
+if __name__ == "__main__":
     print(suma(2, 3))
+    print(resta(10, 2))
